@@ -68,3 +68,19 @@ console.log(keys);
 
 let values = Object.values(fruits);
 console.log(values);
+
+
+//フロントエンド08課題
+//関数名がある場合
+function add(p1, p2){
+    let p = (p1 * p2) / 2;
+    return p;
+}
+console.log(add(4, 6));
+
+//関数名がない場合
+var add = function(p1, p2){
+    let p = (p1 * p2) / 2;
+    return p;
+}
+console.log(add(4, 5));
