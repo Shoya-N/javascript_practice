@@ -1,10 +1,12 @@
 //フロントエンド02課題
 console.log('永井翔也'); // コンソール画面に「永井翔也」と出力する
-            
+
+
 //フロントエンド03課題
 let inputValue = prompt();
 let x = inputValue * 1.1;
 alert(x);
+
 
 //フロントエンド04課題
 let mon = 11;
@@ -36,6 +38,7 @@ if (mon === 1) {
     console.log('default'); 
 }
 
+
 //フロントエンド05課題
 for (let i = 10; i > 0; i--) {
     let s = '(' + i + '):';
@@ -45,6 +48,7 @@ for (let i = 10; i > 0; i--) {
     console.log(s);
 }
 
+
 //フロントエンド06課題
 let fruit = ['apricot','strawberry'];
 fruit.unshift('pear');
@@ -52,3 +56,15 @@ fruit.push('grape');
 fruit[3] = 'lime';
 
 console.log(fruit);
+
+
+//フロントエンド07課題
+var fruits = {apple:'りんご', strawberry:'いちご', grape:'ぶどう', lemon:'れもん'};
+
+console.log(fruits["grape"]);
+
+let keys = Object.keys(fruits);
+console.log(keys);
+
+let values = Object.values(fruits);
+console.log(values);
