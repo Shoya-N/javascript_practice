@@ -99,3 +99,32 @@ let b5 = a.filter(function(e) {
     return e % 5 == 0;
 });
 console.log(b5);
+
+
+//フロントエンド10課題
+let apple = {        // 「apple」オブジェクト
+    name: 'りんご',
+    size: 5,
+    weight: 10,
+    colour: 'あか'
+};
+
+let orange = {        // 「orange」オブジェクト
+    name: 'オレンジ',
+    size: 10,
+    weight: 20,
+    colour: 'だいだい'
+};
+
+let grape = {      // 「grape」オブジェクト
+    name: 'ぶどう',
+    size: 15,
+    weight: 30,
+    colour: 'むらさき'
+};
+
+let fruits1 = [apple, orange, grape];
+
+const total = fruits1.map(e => e.weight).reduce((x, y) => x + y, 0);
+
+console.log(total);
