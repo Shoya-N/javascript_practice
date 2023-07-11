@@ -128,3 +128,13 @@ let fruits1 = [apple, orange, grape];
 const total = fruits1.map(e => e.weight).reduce((x, y) => x + y, 0);
 
 console.log(total);
+
+
+//フロントエンド11課題
+console.log(document);
+let e1 = document.getElementById('p1');
+e1.outerHTML = '<input type="text">変更したタグ</input>';
+let e2 = document.getElementById('p2');
+e2.innerText = 'テキスト文字列';
+let e3 = document.getElementById('p3');
+e3.id = 'p5'; 
