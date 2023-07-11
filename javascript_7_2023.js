@@ -133,8 +133,15 @@ console.log(total);
 //フロントエンド11課題
 console.log(document);
 let e1 = document.getElementById('p1');
-e1.outerHTML = '<input type="text">変更したタグ</input>';
+e1.outerHTML = '<input type="text">変更したタグ';
 let e2 = document.getElementById('p2');
 e2.innerText = 'テキスト文字列';
 let e3 = document.getElementById('p3');
 e3.id = 'p5'; 
+
+
+//フロントエンド12課題
+let target = document.getElementById('text01');
+target.addEventListener('blur', function() {
+    target.outerHTML = '<span type="text">文章を入力してください</span>';
+});
