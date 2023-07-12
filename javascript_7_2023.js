@@ -146,3 +146,14 @@ let target = document.getElementById('text01');
 target.addEventListener('blur', function() {
     target.outerHTML = '<span type="text">文章を入力してください</span>';
 });
+
+
+//フロントエンド14課題
+var b = [1,2,3]; // aは既に定義済みなのでbに変更
+
+try {
+    console.log(b[i]); 
+} catch (e) {
+    console.log(e);
+}
+console.log('end');   
