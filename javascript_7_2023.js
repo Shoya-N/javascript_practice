@@ -124,10 +124,11 @@ let grape = {      // 「grape」オブジェクト
 };
 
 let fruits1 = [apple, orange, grape];
-
 const total = fruits1.map(e => e.weight).reduce((x, y) => x + y, 0);
-
 console.log(total);
+//fruits1.forEach(e => {
+    //console.log(e.weight); 足し方がわからない(総重量)
+//});
 
 
 //フロントエンド11課題
