@@ -243,3 +243,16 @@ for (let i = 0; i < itemList.length; i++) {
     totalStock += itemList[i].getStock();
 }
 console.log('全体の在庫数:' + totalStock);
+
+
+
+//フロントエンド16課題
+$(function () {
+    $('#btn').on('click', function() {
+        if($('#msg').css('color') == "rgb(0, 0, 255)") {
+            $('#msg').css('color', 'black') // 元に戻る(黒色)
+        } else {
+            $('#msg').css('color', 'blue') // 青になる
+        }
+    });
+});
