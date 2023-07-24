@@ -116,4 +116,4 @@ cate2Element.addEventListener('change', function() {
 // 大分類の生成
 setMainMenu();
 
-//forを変更するとは
+//forを変更するとは...
